@@ -206,7 +206,7 @@ def file_lines_to_list(path):
 
 """
  Draws text in image
-"""
+
 def draw_text_in_image(img, text, pos, color, line_width):
     font = cv2.FONT_HERSHEY_PLAIN
     fontScale = 1
@@ -220,7 +220,7 @@ def draw_text_in_image(img, text, pos, color, line_width):
             lineType)
     text_width, _ = cv2.getTextSize(text, font, fontScale, lineType)[0]
     return img, (line_width + text_width)
-
+"""
 """
  Plot - adjust axes
 """
