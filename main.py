@@ -702,7 +702,7 @@ with open(output_files_path + "/output.txt", 'w') as output_file:
             # set window title
             fig = plt.gcf() # gcf - get current figure
             #fig.canvas.set_window_title('AP ' + class_name)
-            fig.canvas.set_title('AP ' + class_name)
+            #fig.canvas.set_title('AP ' + class_name)
             # set plot title
             plt.title('class: ' + text)
             #plt.suptitle('This is a somewhat long figure title', fontsize=16)
